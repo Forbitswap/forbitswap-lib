@@ -1,0 +1,20 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212201db3045a13c2d81a03677e013c34ea9631abfe8941cb838b4c766866225b337a64736f6c634300060c0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SAR 0xB3 DIV GAS SGT 0xC2 0xD8 BYTE SUB PUSH8 0x7E013C34EA9631AB INVALID DUP10 COINBASE 0xCB DUP4 DUP12 0x4C PUSH23 0x6866225B337A64736F6C634300060C0033000000000000 ",
+      "sourceMap": "500:40:16:-:0;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "6080604052600080fdfea26469706673582212201db3045a13c2d81a03677e013c34ea9631abfe8941cb838b4c766866225b337a64736f6c634300060c0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SAR 0xB3 DIV GAS SGT 0xC2 0xD8 BYTE SUB PUSH8 0x7E013C34EA9631AB INVALID DUP10 COINBASE 0xCB DUP4 DUP12 0x4C PUSH23 0x6866225B337A64736F6C634300060C0033000000000000 ",
+      "sourceMap": "500:40:16:-:0;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/test/SafeERC20NamerTest.sol\":\"NamerTestFakeOptionalERC20\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/libraries/AddressStringUtil.sol\":{\"keccak256\":\"0x1edf9591b1858ce9093a4baaf816280d92bd1441e911a82bf509b8d2bb3195ce\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://bb7600744f3ce303df65f763ad7eec56223b9687e19476d992b95ccaf45eaf99\",\"dweb:/ipfs/QmPHDpxSbifD4ThEmM5hZoyfd9K9NMg9k6WZvFhFSFK42w\"]},\"contracts/libraries/SafeERC20Namer.sol\":{\"keccak256\":\"0x268aaae7920551371023765da8968743b9c1bbc9e446730ff76de6cb4ee77420\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://e7ef384c12b35ba88ae0462515556e8625ff87480e00cd2c135b6511aa88e7b3\",\"dweb:/ipfs/QmYayZDbGAjEvV5Ma3CUbLiDk8BFppjVuHc2FpwT8MyehV\"]},\"contracts/test/SafeERC20NamerTest.sol\":{\"keccak256\":\"0x7e90fba03e905fa1765fc61c5a82370f9a2e728bd72c64304f1977377bd1d351\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://6334a02f957fdd46cb66f5fd540f629b9192a03b8a16fe5acb5cc422a7344676\",\"dweb:/ipfs/Qmd8qgXJy6e9beahdLDz577BxiC2p1QE2qhHWPwScQPAhb\"]}},\"version\":1}",
+  "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212201db3045a13c2d81a03677e013c34ea9631abfe8941cb838b4c766866225b337a64736f6c634300060c0033"
+}

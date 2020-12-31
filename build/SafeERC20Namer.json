@@ -1,0 +1,20 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220c6a2276a07e1f3480735e3a318fda19a0e9b8c6f2fe936516c5cd80879b1eb9e64736f6c634300060c0033",
+      "opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC6 LOG2 0x27 PUSH11 0x7E1F3480735E3A318FDA1 SWAP11 0xE SWAP12 DUP13 PUSH16 0x2FE936516C5CD80879B1EB9E64736F6C PUSH4 0x4300060C STOP CALLER ",
+      "sourceMap": "303:3524:6:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220c6a2276a07e1f3480735e3a318fda19a0e9b8c6f2fe936516c5cd80879b1eb9e64736f6c634300060c0033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC6 LOG2 0x27 PUSH11 0x7E1F3480735E3A318FDA1 SWAP11 0xE SWAP12 DUP13 PUSH16 0x2FE936516C5CD80879B1EB9E64736F6C PUSH4 0x4300060C STOP CALLER ",
+      "sourceMap": "303:3524:6:-:0;;;;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/SafeERC20Namer.sol\":\"SafeERC20Namer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/libraries/AddressStringUtil.sol\":{\"keccak256\":\"0x1edf9591b1858ce9093a4baaf816280d92bd1441e911a82bf509b8d2bb3195ce\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://bb7600744f3ce303df65f763ad7eec56223b9687e19476d992b95ccaf45eaf99\",\"dweb:/ipfs/QmPHDpxSbifD4ThEmM5hZoyfd9K9NMg9k6WZvFhFSFK42w\"]},\"contracts/libraries/SafeERC20Namer.sol\":{\"keccak256\":\"0x268aaae7920551371023765da8968743b9c1bbc9e446730ff76de6cb4ee77420\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://e7ef384c12b35ba88ae0462515556e8625ff87480e00cd2c135b6511aa88e7b3\",\"dweb:/ipfs/QmYayZDbGAjEvV5Ma3CUbLiDk8BFppjVuHc2FpwT8MyehV\"]}},\"version\":1}",
+  "bytecode": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220c6a2276a07e1f3480735e3a318fda19a0e9b8c6f2fe936516c5cd80879b1eb9e64736f6c634300060c0033"
+}

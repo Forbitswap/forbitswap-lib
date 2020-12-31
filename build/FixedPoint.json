@@ -1,0 +1,20 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212209c458cfaaea77e31e3ba463d6ef3371369cf999e61027a104bffd747a64b10a064736f6c634300060c0033",
+      "opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP13 GASLIMIT DUP13 STATICCALL 0xAE 0xA7 PUSH31 0x31E3BA463D6EF3371369CF999E61027A104BFFD747A64B10A064736F6C6343 STOP MOD 0xC STOP CALLER ",
+      "sourceMap": "251:5329:3:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212209c458cfaaea77e31e3ba463d6ef3371369cf999e61027a104bffd747a64b10a064736f6c634300060c0033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP13 GASLIMIT DUP13 STATICCALL 0xAE 0xA7 PUSH31 0x31E3BA463D6EF3371369CF999E61027A104BFFD747A64B10A064736F6C6343 STOP MOD 0xC STOP CALLER ",
+      "sourceMap": "251:5329:3:-:0;;;;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/FixedPoint.sol\":\"FixedPoint\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/libraries/Babylonian.sol\":{\"keccak256\":\"0x2799682d733a6ef3aae1dce7dbe2cff5513f0244e4abd07338fe7a45c8fd9733\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://332968199300fe6025b9ad8f3d69f252ec2a3a092fa42a0ef7f2d1397f59a7e5\",\"dweb:/ipfs/Qme4wBzDwfHr7zHk8WrCwCpozpt4KHuDQSxfJTDoHL8Pdi\"]},\"contracts/libraries/BitMath.sol\":{\"keccak256\":\"0x0ef2d7cd41b3f1818fa41019b38948489238efccebe428d4b04919174378abf5\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://696ac37d8731506cbac9b428afb7bdfa35a490df139022be2b04ab3815113cf4\",\"dweb:/ipfs/QmUQ5ty49YATw4Gf5PrtFkxNErcnwhNUpRF3WFaVJxATf9\"]},\"contracts/libraries/FixedPoint.sol\":{\"keccak256\":\"0x0e8d7f2bfad7505f9d029ea060eab9747363d50bf01f2d954bf719da6fac342f\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://35dd605e2fd59d2606529ab1575cd937082018cd041cfbb843b68e97e440b9b0\",\"dweb:/ipfs/QmUHbzyCdzwUSCUPVFFm9N6oKXiisVdscX8H73nwNXmmpV\"]},\"contracts/libraries/FullMath.sol\":{\"keccak256\":\"0xf3dd7fc13a7eee86c17cdfe13b03a7f24ebaf09588550b64b581ae7b2bd59273\",\"license\":\"CC-BY-4.0\",\"urls\":[\"bzz-raw://492ced3afa929c790c9b1314b86454a977528e8f3d408a55b1275a396154d097\",\"dweb:/ipfs/QmbX2YAgtoM13Z2MRnV5WnUpzmw3fMxmhzCnsKKxQUjGJJ\"]}},\"version\":1}",
+  "bytecode": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212209c458cfaaea77e31e3ba463d6ef3371369cf999e61027a104bffd747a64b10a064736f6c634300060c0033"
+}

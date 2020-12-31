@@ -1,0 +1,63 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "name_",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "symbol_",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "608060405234801561001057600080fd5b506040516100ea3803806100ea8339818101604052604081101561003357600080fd5b5080516020909101516000919091556001556097806100536000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806306fdde0314603757806395d89b4114604f575b600080fd5b603d6055565b60408051918252519081900360200190f35b603d605b565b60005481565b6001548156fea26469706673582212207c19226cd60f140ac39593bd982f97e1e6231b51ea1dc01a5200c5e373d351e864736f6c634300060c0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x40 MLOAD PUSH2 0xEA CODESIZE SUB DUP1 PUSH2 0xEA DUP4 CODECOPY DUP2 DUP2 ADD PUSH1 0x40 MSTORE PUSH1 0x40 DUP2 LT ISZERO PUSH2 0x33 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP DUP1 MLOAD PUSH1 0x20 SWAP1 SWAP2 ADD MLOAD PUSH1 0x0 SWAP2 SWAP1 SWAP2 SSTORE PUSH1 0x1 SSTORE PUSH1 0x97 DUP1 PUSH2 0x53 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x32 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6FDDE03 EQ PUSH1 0x37 JUMPI DUP1 PUSH4 0x95D89B41 EQ PUSH1 0x4F JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3D PUSH1 0x55 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x3D PUSH1 0x5B JUMP JUMPDEST PUSH1 0x0 SLOAD DUP2 JUMP JUMPDEST PUSH1 0x1 SLOAD DUP2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH29 0x19226CD60F140AC39593BD982F97E1E6231B51EA1DC01A5200C5E373D3 MLOAD 0xE8 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+      "sourceMap": "851:207:16:-:0;;;950:106;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;950:106:16;;;;;;;1011:4;:12;;;;1033:6;:16;851:207;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "6080604052348015600f57600080fd5b506004361060325760003560e01c806306fdde0314603757806395d89b4114604f575b600080fd5b603d6055565b60408051918252519081900360200190f35b603d605b565b60005481565b6001548156fea26469706673582212207c19226cd60f140ac39593bd982f97e1e6231b51ea1dc01a5200c5e373d351e864736f6c634300060c0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x32 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6FDDE03 EQ PUSH1 0x37 JUMPI DUP1 PUSH4 0x95D89B41 EQ PUSH1 0x4F JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3D PUSH1 0x55 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x3D PUSH1 0x5B JUMP JUMPDEST PUSH1 0x0 SLOAD DUP2 JUMP JUMPDEST PUSH1 0x1 SLOAD DUP2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH29 0x19226CD60F140AC39593BD982F97E1E6231B51EA1DC01A5200C5E373D3 MLOAD 0xE8 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+      "sourceMap": "851:207:16:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;897:19;;;:::i;:::-;;;;;;;;;;;;;;;;922:21;;;:::i;897:19::-;;;;:::o;922:21::-;;;;:::o"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"name_\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"symbol_\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/test/SafeERC20NamerTest.sol\":\"NamerTestFakeNoncompliantERC20\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/libraries/AddressStringUtil.sol\":{\"keccak256\":\"0x1edf9591b1858ce9093a4baaf816280d92bd1441e911a82bf509b8d2bb3195ce\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://bb7600744f3ce303df65f763ad7eec56223b9687e19476d992b95ccaf45eaf99\",\"dweb:/ipfs/QmPHDpxSbifD4ThEmM5hZoyfd9K9NMg9k6WZvFhFSFK42w\"]},\"contracts/libraries/SafeERC20Namer.sol\":{\"keccak256\":\"0x268aaae7920551371023765da8968743b9c1bbc9e446730ff76de6cb4ee77420\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://e7ef384c12b35ba88ae0462515556e8625ff87480e00cd2c135b6511aa88e7b3\",\"dweb:/ipfs/QmYayZDbGAjEvV5Ma3CUbLiDk8BFppjVuHc2FpwT8MyehV\"]},\"contracts/test/SafeERC20NamerTest.sol\":{\"keccak256\":\"0x7e90fba03e905fa1765fc61c5a82370f9a2e728bd72c64304f1977377bd1d351\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://6334a02f957fdd46cb66f5fd540f629b9192a03b8a16fe5acb5cc422a7344676\",\"dweb:/ipfs/Qmd8qgXJy6e9beahdLDz577BxiC2p1QE2qhHWPwScQPAhb\"]}},\"version\":1}",
+  "bytecode": "608060405234801561001057600080fd5b506040516100ea3803806100ea8339818101604052604081101561003357600080fd5b5080516020909101516000919091556001556097806100536000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806306fdde0314603757806395d89b4114604f575b600080fd5b603d6055565b60408051918252519081900360200190f35b603d605b565b60005481565b6001548156fea26469706673582212207c19226cd60f140ac39593bd982f97e1e6231b51ea1dc01a5200c5e373d351e864736f6c634300060c0033"
+}
